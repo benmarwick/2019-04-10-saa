@@ -121,7 +121,7 @@ If you have problems or questions, please send us an email
 
 <hr/>
 
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Schedule 🕐</h2>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -168,7 +168,7 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
 <hr/>
 
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Setup 🛠️</h2>
 
 <p>
   To participate in a this workshop,

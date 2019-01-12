@@ -130,7 +130,7 @@ If you have problems or questions, please send us an email
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule 🗓️</h2>
+<h2 id="schedule">Schedule</h2>
 
 
 <style type="text/css">
@@ -386,7 +386,7 @@ Between each topic we will have a 15 minute break for fresh air and a strech. We
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<h2 id="coc">Code of Conduct ✅</h2>
+<h2 id="coc">Code of Conduct</h2>
 We are dedicated to providing a welcoming and supportive environment for all people, regardless of
 background or identity. However, we recognise that some groups in our community are subject to historical
 and ongoing discrimination, and may be vulnerable or disadvantaged. Membership in such a specific group
@@ -417,17 +417,17 @@ of a specific group listed above causing someone to fear for their safety, such 
     </p>
 <p>
 Behaviour not explicitly mentioned above may still constitute harassment. The list above should not be taken as exhaustive but rather as a guide to make it easier to enrich all of us and the communities in which we participate. All interactions should be professional regardless of location: harassment is prohibited whether it occurs on- or offline, and the same standards apply to both.
-  </p>
+</p>
 <p>
 Enforcement of the Code of Conduct will be respectful and not include any harassing behaviors.
-  </p>
+</p>
 <p>
 Thank you for helping make this a welcoming, friendly community for all.
   </p>
 <p>
 This code of conduct is an adaptation of the one used by the Software Carpentry Foundation and is a modified version of that used by PyCon, which in turn is forked from a template written by the Ada Initiative and hosted on the Geek Feminism Wiki. Contributors to this document: Adam Obeng, Aleksandra Pawlik, Bill Mills, Carol Willing, Erin Becker, Hilmar Lapp, Kara Woo, Karin Lagesen, Pauline Barmby, Sheila Miguez, Simon Waldman, Tracy Teal.
 
-<h2 id="people">Further reading 📄👀</h2>
+<h2 id="people">Further reading</h2>
 
 <p>Eglen, S. J., Marwick, B., Halchenko, Y. O., Hanke, M., Sufi, S., Gleeson, P., &hellip; &amp; Wachtler, T. (2017). Toward standard practices for sharing computer code and programs in neuroscience. <em>Nature Neuroscience</em> 20(6), 770-773. [<a href="http://doi.org/10.1038/nn.4550" target="_blank">DOI</a>] [<a href="https://doi.org/10.1101/045104" target="_blank">preprint</a>] [<a href="http://faculty.washington.edu/bmarwick/PDFs/Eglen_Marwick_et_al_2017_sharing_code.pdf" target="_blank">PDF</a>]</p>
 
@@ -445,7 +445,7 @@ This code of conduct is an adaptation of the one used by the Software Carpentry 
 
 <p>Rokem, A., B. Marwick, V. Staneva 2017 Assessing Reproducibility. In Kitzes, J., Turek, D., &amp; Deniz, F. (Eds.) <em>The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences.</em> Oakland, CA: University of California Press. University of California Press. [<a href="https://www.practicereproducibleresearch.org/core-chapters/2-assessment.html" target="_blank">online</a>]</p>
 
-<h2 id="people">About the instructors 🍎 </h2>
+<h2 id="people">About the instructors</h2>
 
 <a href="http://faculty.washington.edu/bmarwick/">Ben Marwick</a> is an Associate Professor of archaeology at the University of Washington. He studies Pleistocene archaeology in mainland Southeast Asia and Australia. He uses R in his day-to-day work and research publications, and has written extensively (including in <em><a href="http://www.nature.com/neuro/journal/v20/n6/full/nn.4550.html">Nature</a></em> and the <em><a href="https://link.springer.com/article/10.1007/s10816-015-9272-9">Journal of Archaeological Method and Theory</a></em>) on the importance of using code to improve the reproducibility of research in archaeology and elsewhere. Ben is the convener of the SAA Open Science Interest Group.
 <p>

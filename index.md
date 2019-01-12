@@ -1,8 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "Transparent and Open
-Archaeological Science Using R<br><h3>A Short Workshop at the Society of American Archaeology Annual Meeting, Albuquerque Convention Center</h3>"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Transparent and Open Archaeological Science Using R<br><h3>A Short Workshop at the Society of American Archaeology Annual Meeting, Albuquerque Convention Center</h3>"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "401 2nd St NW, Albuquerque, NM 87102"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -131,7 +130,7 @@ If you have problems or questions, please send us an email
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 {% endcomment %}
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Schedule 🗓️</h2>
 
 
 <style type="text/css">
@@ -211,7 +210,7 @@ Between each topic we will have a 15 minute break for fresh air and a strech. We
   'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Setup 🛠️</h2>
 
 <p>
   To participate in this workshop,
@@ -387,7 +386,7 @@ Between each topic we will have a 15 minute break for fresh air and a strech. We
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<h2 id="coc">Code of Conduct</h2>
+<h2 id="coc">Code of Conduct ✅</h2>
 We are dedicated to providing a welcoming and supportive environment for all people, regardless of
 background or identity. However, we recognise that some groups in our community are subject to historical
 and ongoing discrimination, and may be vulnerable or disadvantaged. Membership in such a specific group
@@ -428,13 +427,13 @@ Thank you for helping make this a welcoming, friendly community for all.
 <p>
 This code of conduct is an adaptation of the one used by the Software Carpentry Foundation and is a modified version of that used by PyCon, which in turn is forked from a template written by the Ada Initiative and hosted on the Geek Feminism Wiki. Contributors to this document: Adam Obeng, Aleksandra Pawlik, Bill Mills, Carol Willing, Erin Becker, Hilmar Lapp, Kara Woo, Karin Lagesen, Pauline Barmby, Sheila Miguez, Simon Waldman, Tracy Teal.
 
-<h2 id="people">Further reading 📄</h2>
+<h2 id="people">Further reading 📄👀</h2>
 
 <p>Marwick, B., &amp; Birch, S. 2018 A Standard for the Scholarly Citation of Archaeological Data as an Incentive to Data Sharing. <em>Advances in Archaeological Practice</em> 1-19. [<a href="https://doi.org/10.1017/aap.2018.3" target="_blank">DOI</a>] [<a href="https://osf.io/preprints/socarxiv/py4hz/" target="_blank">preprint</a>] [<a href="http://faculty.washington.edu/bmarwick/PDFs/Marwick-and-Pilaar-Birch-2018-Data-Citation-AAP.pdf" target="_blank">PDF</a>] [<a href="https://doi.org/10.17605/OSF.IO/KSRUZ" target="_blank">code &amp; data</a>]</p>
 
 <p>Marwick, B., Boettiger, C., &amp; Mullen, L. 2017 Packaging data analytical work reproducibly using R (and friends). <em>The American Statistician</em>  [<a href="https://doi.org/10.1080/00031305.2017.1375986" target="_blank">DOI</a>] [<a href="https://doi.org/10.7287/peerj.preprints.3192v1" target="_blank">preprint</a>]</p>
 
-<p>Marwick, B, d’Alpoim Guedes, J., Barton, C. M., Bates, L. A., Baxter, M., Bevan, A., Bollwerk, E. A., Bocinsky, R. K., Brughmans, T., Carter, A. K., Conrad, C., Contreras, D. A., Costa, S., Crema, E. R., Daggett, A., Davies, B., Drake, B. L., Dye, T. S., France, P., Fullagar, R., Giusti, D., Graham, S., Harris, M. D., Hawks, J., Health, S., Huffer, D., Kansa, E. C., Kansa, S. W., Madsen, M. E., Melcher, J., Negre, J., Neiman, F. D., Opitz, R., Orton, D. C., Przstupa, P., Raviele, M., Riel-Savatore, J., Riris, P., Romanowska, I., Smith, J., Strupler, N., Ullah, I. I., Van Vlack, H. G., VanValkenburgh, N., Watrall, E. C., Webster, C., Wells, J., Winters, J., and Wren, C. D. (2017) Open science in archaeology. <em>SAA Archaeological Record</em>, 17(4), pp. 8-14. [<a href="http://www.saa.org/Portals/0/SAA_Record_Sept_2017_Final_LR.pdf#page=10" target="_blank">PDF</a>] [<a href="https://osf.io/preprints/socarxiv/72n8g/" target="_blank">preprint</a>]</p>
+<p>Marwick, B, d’Alpoim Guedes, J., Barton, C. M., Bates, L. A., Baxter, M., Bevan, A., Bollwerk, E. A., Bocinsky, R. K., Brughmans, T., Carter, A. K., Conrad, C., Contreras, D. A., Costa, S., Crema, E. R., Daggett, A., Davies, B., Drake, B. L., Dye, T. S., France, P., Fullagar, R., Giusti, D., Graham, S., Harris, M. D., Hawks, J., Health, S., Huffer, D., Kansa, E. C., Kansa, S. W., Madsen, M. E., Melcher, J., Negre, J., Neiman, F. D., Opitz, R., Orton, D. C., Przstupa, P., Raviele, M., Riel-Savatore, J., Riris, P., Romanowska, I., Smith, J., Strupler, N., Ullah, I. I., Van Vlack, H. G., VanValkenburgh, N., Watrall, E. C., Webster, C., Wells, J., Winters, J., and Wren, C. D. (2017) Open science in archaeology. <em>SAA Archaeological Record</em>, 17(4), pp. 8-14. [<a href="http://onlinedigeditions.com/publication/?i=440506#{%22issue_id%22:440506,%22page%22:10}" target="_blank">PDF</a>] [<a href="https://osf.io/preprints/socarxiv/72n8g/" target="_blank">preprint</a>]</p>
 
 
 <p>Eglen, S. J., Marwick, B., Halchenko, Y. O., Hanke, M., Sufi, S., Gleeson, P., &hellip; &amp; Wachtler, T. (2017). Toward standard practices for sharing computer code and programs in neuroscience. <em>Nature Neuroscience</em> 20(6), 770-773. [<a href="http://doi.org/10.1038/nn.4550" target="_blank">DOI</a>] [<a href="https://doi.org/10.1101/045104" target="_blank">preprint</a>] [<a href="http://faculty.washington.edu/bmarwick/PDFs/Eglen_Marwick_et_al_2017_sharing_code.pdf" target="_blank">PDF</a>]</p>
@@ -447,7 +446,7 @@ This code of conduct is an adaptation of the one used by the Software Carpentry 
 
 <p>Rokem, A., B. Marwick, V. Staneva 2017 Assessing Reproducibility. In Kitzes, J., Turek, D., &amp; Deniz, F. (Eds.) <em>The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences.</em> Oakland, CA: University of California Press. University of California Press. [<a href="https://www.practicereproducibleresearch.org/core-chapters/2-assessment.html" target="_blank">online</a>]</p>
 
-<h2 id="people">About the organisers</h2>
+<h2 id="people">About the instructors 🍎</h2>
 
 <a href="http://faculty.washington.edu/bmarwick/">Ben Marwick</a> is an Associate Professor of archaeology at the University of Washington. He studies Pleistocene archaeology in mainland Southeast Asia and Australia. He uses R in his day-to-day work and research publications, and has written extensively (including in <em><a href="http://www.nature.com/neuro/journal/v20/n6/full/nn.4550.html">Nature</a></em> and the <em><a href="https://link.springer.com/article/10.1007/s10816-015-9272-9">Journal of Archaeological Method and Theory</a></em>) on the importance of using code to improve the reproducibility of research in archaeology and elsewhere. Ben is the convener of the SAA Open Science Interest Group.
 <p>

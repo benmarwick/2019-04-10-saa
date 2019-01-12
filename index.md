@@ -203,6 +203,12 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
 
 <hr />
 
+<br />&nbsp;
+<br />&nbsp;
+<br />&nbsp;
+<br />&nbsp;
+<hr />
+
 <h2 id="setup">Setup</h2>
 
 <p>

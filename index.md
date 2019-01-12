@@ -167,7 +167,7 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
 
 <hr/>
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Setup 🛠️</h2>
 
 <p>
   To participate in a this workshop,

@@ -122,7 +122,7 @@ If you have problems or questions, please send us an email
 <h2 id="general">How to register</h2>
 
 To participate in the workshop, you need to <a href="https://www.saa.org/annual-meeting/registration-info">register for the SAA meeting</a>. While completing the registration steps on the SAA website, you need to browse for this workshop among the items listed on Wednesday, 10 April 2019. When you find it, click 'add' to select the workshop, then click 'proceed to checkout'. Registration for the meeting closes on <b>March 12, 2019</b>. 
-<p>
+<br>
 <p> The fees for the workshop are set by the SAA to cover the room hire, audiovisual equipment hire, and internet access for participants. All of the instructors are volunteers. 
 
 <hr/>

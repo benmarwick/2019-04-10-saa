@@ -122,61 +122,56 @@ If you have problems or questions, please send us an email
 <hr/>
 
 
-<hr/>
 
-{% comment %}
- SURVEYS - DO NOT EDIT SURVEY LINKS
-{% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %}
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "lc" %}
-<p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endif %}
-
-<hr/>
-
-
-{% comment %}
-  SCHEDULE
-
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
-{% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
 
-{% comment %}
-  Collaborative Notes
 
-  If you want to use an Etherpad, go to
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l"><b>Start time</b></th>
+    <th class="tg-yw4l"><b>End time</b></th>
+    <th class="tg-yw4l"><b>Topic</b></th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">1:00</td>
+    <td class="tg-yw4l">1:45</td>
+    <td class="tg-yw4l">Introduction to <a href="https://www.r-project.org/">R</a> and a <a href="https://www.rstudio.com/">RStudio</a></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">2:00</td>
+    <td class="tg-yw4l">2:45</td>
+    <td class="tg-yw4l">Writing with <a href="https://rmarkdown.rstudio.com/">RMarkdown</a></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">3:00</td>
+    <td class="tg-yw4l">3:45</td>
+    <td class="tg-yw4l"><a href="https://git-scm.com/">Git</a> & <a href="https://github.com/">GitHub</a></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">4:00</td>
+    <td class="tg-yw4l">4:45</td>
+    <td class="tg-yw4l">Data repositories & <a href="https://osf.io">Open Science Framework</a></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">4:45</td>
+    <td class="tg-yw4l">5:00</td>
+    <td class="tg-yw4l"><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510">Good enough practices</a></td>
+  </tr>
+</table>
 
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop,
-  e.g., '2015-06-10-esu'.
-{% endcomment %}
-{% if page.collaborative_notes %}
-<p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+Between each topic we will have a 15 minute break for fresh air and a strech. We will be using the <a href="https://www.tidyverse.org/">tidyverse</a>, a modern, unified collection of R packages designed for data science. For a more in-depth coverage of many of the topics of the workshop, you may want to read <a href="http://r4ds.had.co.nz/"><em>R for Data Science</em></a> by Hadley Wickham and Garrett Grolemund.
 </p>
-{% endif %}
+
 
 <hr/>
+
 
 {% comment %}
   SYLLABUS

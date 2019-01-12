@@ -36,7 +36,7 @@ In recent years serious concerns about the reproducibility and transparency of r
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 {% endcomment %}
-This workshop is well-suited to novices who have never used R before: <em>no</em> prior experience is necessary. The course is aimed at archaeologists at all career stages.
+This workshop is suited to novices who have never used R before: <em>no</em> prior experience is necessary. The course is aimed at archaeologists doing research at all career stages.
 <p>
 
 
@@ -55,7 +55,7 @@ This workshop is well-suited to novices who have never used R before: <em>no</em
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. 🌏
 </p>
 {% endif %}
 
@@ -68,7 +68,7 @@ This workshop is well-suited to novices who have never used R before: <em>no</em
 <p id="when">
   <strong>When:</strong>
   {{page.humandate}}.
-  {% include workshop_calendar.html %}
+  {% include workshop_calendar.html %} 📅
 </p>
 {% endif %}
 
@@ -116,7 +116,7 @@ If you have problems or questions, please send us an email
   {% else %}
     to-be-announced
   {% endif %}
-  for more information.
+  for more information. ✉️
 </p>
 
 <hr/>
@@ -149,27 +149,27 @@ If you have problems or questions, please send us an email
   <tr>
     <td class="tg-yw4l">1:00</td>
     <td class="tg-yw4l">1:45</td>
-    <td class="tg-yw4l">Introduction to R and RStudio</td>
+    <td class="tg-yw4l">Introduction to <a href="https://www.r-project.org/">R</a> and a <a href="https://www.rstudio.com/">RStudio</a></td>
   </tr>
   <tr>
     <td class="tg-yw4l">2:00</td>
     <td class="tg-yw4l">2:45</td>
-    <td class="tg-yw4l">Writing with RMarkdown</td>
+    <td class="tg-yw4l">Writing with <a href="https://rmarkdown.rstudio.com/">RMarkdown</a></td>
   </tr>
   <tr>
     <td class="tg-yw4l">3:00</td>
     <td class="tg-yw4l">3:45</td>
-    <td class="tg-yw4l">Git & GitHub</td>
+    <td class="tg-yw4l"><a href="https://git-scm.com/">Git</a> & <a href="https://github.com/">GitHub</a></td>
   </tr>
   <tr>
     <td class="tg-yw4l">4:00</td>
     <td class="tg-yw4l">4:45</td>
-    <td class="tg-yw4l">Data repositories & Open Science Framework</td>
+    <td class="tg-yw4l">Data repositories & <a href="https://osf.io">Open Science Framework</a></td>
   </tr>
   <tr>
     <td class="tg-yw4l">4:45</td>
     <td class="tg-yw4l">5:00</td>
-    <td class="tg-yw4l">Best practices</td>
+    <td class="tg-yw4l"><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510">Good enough practices</a></td>
   </tr>
 </table>
 

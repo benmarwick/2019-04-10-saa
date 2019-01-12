@@ -119,6 +119,10 @@ If you have problems or questions, please send us an email
   for more information. ✉️
 </p>
 
+<h2 id="general">How to register</h2>
+
+To participate in the workshop, you need to <a href="https://www.saa.org/annual-meeting/registration-info">register for the SAA meeting</a>, while completing the registration steps, you need to browse for the workshop on the items listed on Wednesday, 10 April 2019, then click 'add' to select the workshop, then click 'proceed to checkout'. The fees for the workshop are set by the SAA to cover the room hire, audiovisual equipment hire, and internet access. All of the instructors are volunteers. 
+
 <hr/>
 
 <h2 id="schedule">Schedule</h2>

@@ -343,7 +343,7 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-h2 id="coc">Code of Conduct</h2>
+<h2 id="coc">Code of Conduct</h2>
 We are dedicated to providing a welcoming and supportive environment for all people, regardless of
 background or identity. However, we recognise that some groups in our community are subject to historical
 and ongoing discrimination, and may be vulnerable or disadvantaged. Membership in such a specific group

@@ -175,15 +175,18 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
     <ul>
       <li>Introduction to R</li>
       <li>Working in RStudio</li>
+      <li>Using functions</li>
+      <li>Getting unstuck</li>
       <li>Getting help</li>
     </ul>
   </div>
   <div class="col-md-6">
     <h3 id="syllabus-r">Writing with RMarkdown</h3>
     <ul>
-      <li>Text and code</li>
+      <li>Writing text and code together</li>
       <li>Reading in data from Excel sheets</li>
       <li>Making publication-quality plots</li>
+      <li>Captions, cross-references and citations</li>
     </ul>
   </div>
   <div class="col-md-6">
@@ -197,6 +200,15 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
       <li>Resolving conflicts</li>
       <li>Using Git in R Studio</li>
       <li>Open licenses</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-r">Data repositories & OSF</h3>
+    <ul>
+      <li>Writing text and code together</li>
+      <li>Reading in data from Excel sheets</li>
+      <li>Making publication-quality plots</li>
+      <li>Captions, cross-references and citations</li>
     </ul>
   </div>
 

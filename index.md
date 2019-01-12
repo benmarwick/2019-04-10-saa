@@ -17,39 +17,6 @@ collaborative_notes:             # optional: URL for the workshop collaborative 
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
-{% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
-
-{% comment %}
-  HEADER
-
-  Edit the values in the block above to be appropriate for your workshop.
-  If the value is not 'true', 'false', 'null', or a number, please use
-  double quotation marks around the value, unless specified otherwise.
-  And run 'make workshop-check' *before* committing to make sure that changes are good.
-{% endcomment %}
-
-{% comment %}
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -59,13 +26,9 @@ and our administrator may contact you if we need any extra information.</h4>
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/intro.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/intro.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/intro.html %}
-{% endif %}
+
+
+In recent years serious concerns about the reproducibility and transparency of research have arisen in many scientific disciplines. These concerns reveal a wide gap between scientific practice and scientific ideals, and threaten to erode public support for research. In this workshop we will provide hands-on training in robust techniques, tools and services (all free) to improve the reproducibility and transparency of archaeological research. Most of these tools relate to the R programming language, which is central to recent developments in social and natural sciences.
 
 {% comment %}
   AUDIENCE
@@ -73,13 +36,9 @@ and our administrator may contact you if we need any extra information.</h4>
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/who.html %}
-{% endif %}
+This workshop is suited to novices who have never used R before: <em>no</em> prior experience is necessary. The course is aimed at archaeologists doing research at all career stages.
+<p>
+
 
 {% comment %}
   LOCATION
@@ -96,7 +55,7 @@ and our administrator may contact you if we need any extra information.</h4>
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. 🌏
 </p>
 {% endif %}
 
@@ -109,7 +68,7 @@ and our administrator may contact you if we need any extra information.</h4>
 <p id="when">
   <strong>When:</strong>
   {{page.humandate}}.
-  {% include workshop_calendar.html %}
+  {% include workshop_calendar.html %} 📅
 </p>
 {% endif %}
 
@@ -120,42 +79,20 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  {% if page.carpentry == "swc" %}
-  Software Carpentry's
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry's
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry's
-  {% endif %}
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+
+If you have previously installed these programs, please download and install the most recent versions (your version may be outdated and not work with the activities in this workshop).
+
+If you have problems or questions, please send us an email
+  at {% if page.email %}
+    <a href='mailto:{{page.email}}'>{{page.email}}</a>
+  {% else %}
+    <a href='mailto:{{page.email}}'>{{page.email}}</a>
+  {% endif %}.
+
+  Participants are also required to abide by our <a href="#coc">Code of Conduct</a>.
 </p>
 
-{% comment %}
-  ACCESSIBILITY
-
-  Modify the block below if there are any barriers to accessibility or
-  special instructions.
-{% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
-  The workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-<p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
-</p>
 
 {% comment %}
   CONTACT EMAIL ADDRESS
@@ -179,8 +116,11 @@ and our administrator may contact you if we need any extra information.</h4>
   {% else %}
     to-be-announced
   {% endif %}
-  for more information.
+  for more information. ✉️
 </p>
+
+<hr/>
+
 
 <hr/>
 

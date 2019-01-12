@@ -167,6 +167,42 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
 
 <hr/>
 
+<h2 id="syllabus">Syllabus</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-r">R & RStudio</h3>
+    <ul>
+      <li>Introduction to R</li>
+      <li>Working in RStudio</li>
+      <li>Getting help</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-r">Writing with RMarkdown</h3>
+    <ul>
+      <li>Text and code</li>
+      <li>Reading in data from Excel sheets</li>
+      <li>Making publication-quality plots</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-git">Git & GitHub</h3>
+    <ul>
+      <li>Creating a repository</li>
+      <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
+      <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
+      <li>Ignoring files</li>
+      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+      <li>Resolving conflicts</li>
+      <li>Using Git in R Studio</li>
+      <li>Open licenses</li>
+    </ul>
+  </div>
+
+
+<hr />
+
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -395,7 +431,7 @@ This code of conduct is an adaptation of the one used by the Software Carpentry 
 
 <h2 id="people">About the instructors 🍎 </h2>
 
-<a href="http://faculty.washington.edu/bmarwick/">Ben Marwick</a> is an Associate Professor of archaeology at the University of Washington. He studies Pleistocene archaeology in mainland Southeast Asia and Australia. He uses R in his day-to-day work and research publications, and has written extensively (including in <em><a href="http://www.nature.com/neuro/journal/v20/n6/full/nn.4550.html">Nature</a></em> and the <em><a href="https://link.springer.com/article/10.1007/s10816-015-9272-9">Journal of Archaeological Method and Theory</a></em>) on the importance of using code to improve the reproducibility of research in archaeology and elsewhere. Ben is the convener of the SAA Open Science Interest Group.
+<a href="http://faculty.washington.edu/bmarwick/">Ben Marwick</a> is an Associate Professor of archaeology at the University of Washington. He studies Pleistocene archaeology in mainland Southeast Asia and Australia. He uses R in his day-to-day work and research publications, and has written extensively (including in <em><a href="http://www.nature.com/neuro/journal/v20/n6/full/nn.4550.html">Nature</a></em> and the <em><a href="https://link.springer.com/article/10.1007/s10816-015-9272-9">Journal of Archaeological Method and Theory</a></em>) on the importance of using code to improve the reproducibility of research in archaeology and elsewhere. Ben is the convener of the SAA Open Science Interest Group and maintains an annotated list of R packages useful for archeologists on <a href="https://github.com/benmarwick/ctv-archaeology/blob/master/README.md">GitHub</a>.
 <p>
 </p>
 <a href="https://matthewdharris.com/">Matt Harris</a> is the Director of GIS,

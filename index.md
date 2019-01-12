@@ -189,9 +189,9 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
       <li>Captions, cross-references and citations</li>
     </ul>
   </div>  
-  </div>
+</div>
 
-  <div class="row">
+<div class="row">
   <div class="col-md-6">
     <h3 id="syllabus-git">Git & GitHub</h3>
     <ul>
@@ -214,8 +214,7 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
       <li>Citing data repositories</li>
     </ul>
   </div>
-
-    </div>
+</div>
 
 
 <hr />

@@ -131,7 +131,7 @@ Between each topic we will have a 15 minute break for fresh air and a strech. We
 
 <hr/>
 
-<h2 id="setup">Setup 🛠️</h2>
+<h2 id="setup">Setup</h2>
 
 <p>
   To participate in this workshop,
@@ -305,7 +305,7 @@ Between each topic we will have a 15 minute break for fresh air and a strech. We
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'R' section. {% endcomment %}
+</div> {% comment %} End of 'R' section. {% endcomment %}``
 
 <h2 id="coc">Code of Conduct</h2>
 We are dedicated to providing a welcoming and supportive environment for all people, regardless of

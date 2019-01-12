@@ -393,3 +393,13 @@ This code of conduct is an adaptation of the one used by the Software Carpentry 
 <p>Ram, K. B. Marwick 2017 Building Towards a Future Where Reproducible, Open Science is the Norm. In Kitzes, J., Turek, D., &amp; Deniz, F. (Eds.) <em>The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences.</em> Oakland, CA: University of California Press. [<a href="https://www.practicereproducibleresearch.org/core-chapters/6-future.html" target="_blank">online</a>]</p>
 
 <p>Rokem, A., B. Marwick, V. Staneva 2017 Assessing Reproducibility. In Kitzes, J., Turek, D., &amp; Deniz, F. (Eds.) <em>The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences.</em> Oakland, CA: University of California Press. University of California Press. [<a href="https://www.practicereproducibleresearch.org/core-chapters/2-assessment.html" target="_blank">online</a>]</p>
+
+<h2 id="people">About the instructors 🍎 </h2>
+
+<a href="http://faculty.washington.edu/bmarwick/">Ben Marwick</a> is an Associate Professor of archaeology at the University of Washington. He studies Pleistocene archaeology in mainland Southeast Asia and Australia. He uses R in his day-to-day work and research publications, and has written extensively (including in <em><a href="http://www.nature.com/neuro/journal/v20/n6/full/nn.4550.html">Nature</a></em> and the <em><a href="https://link.springer.com/article/10.1007/s10816-015-9272-9">Journal of Archaeological Method and Theory</a></em>) on the importance of using code to improve the reproducibility of research in archaeology and elsewhere. Ben is the convener of the SAA Open Science Interest Group.
+<p>
+</p>
+<a href="https://matthewdharris.com/">Matt Harris</a> is the Director of GIS,
+Data Analysis, & Geoarchaeology in the Cultural Resources Deptartment of AECOM. He is an advanced R user, with a focus on spatial analysis and simulation. He documents many of his explorations using R on his <a href="https://matthewdharris.com/">blog</a>. Matt is a member of the SAA Open Science Interest Group, and has previously instructed R to archaeologists via the SAA Online workshops and in person.
+<p>
+</p>

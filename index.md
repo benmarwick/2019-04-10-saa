@@ -344,7 +344,7 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
 
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
-  <h3>R</h3>
+  <h3>R & RStudio</h3>
 
   <p>
     <a href="https://www.r-project.org">R</a> is a programming language

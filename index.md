@@ -187,6 +187,7 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
       <li>Reading in data from Excel sheets</li>
       <li>Making publication-quality plots</li>
       <li>Captions, cross-references and citations</li>
+      <li>Creating beautiful Word or PDF documents</li>
     </ul>
   </div>  
 </div>

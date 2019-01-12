@@ -162,35 +162,16 @@ If you have problems or questions, please send us an email
   </tr>
 </table>
 
-Between each topic we will have a 15 minute break for fresh air and a strech. We will be using the <a href="https://www.tidyverse.org/">tidyverse</a>, a modern, unified collection of R packages designed for data science. For a more in-depth coverage of many of the topics of the workshop, you may want to read <a href="http://r4ds.had.co.nz/"><em>R for Data Science</em></a> by Hadley Wickham and Garrett Grolemund.
+Between each topic we will have a 15 minute break for fresh air and a stretch. We will be using the <a href="https://www.tidyverse.org/">tidyverse</a>, a modern, unified collection of R packages designed for data science. For a more in-depth coverage of many of the topics of the workshop, you may want to read <a href="http://r4ds.had.co.nz/"><em>R for Data Science</em></a> by Hadley Wickham and Garrett Grolemund.
 </p>
 
 <hr/>
 
-{% comment %}
-  SETUP
-
-  Delete irrelevant sections from the setup instructions.  Each
-  section is inside a 'div' without any classes to make the beginning
-  and end easier to find.
-
-  This is the other place where people frequently make mistakes, so
-  please preview your site before committing, and make sure to run
-  'tools/check' as well.
-{% endcomment %}
 
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
+  To participate in a this workshop,
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
@@ -315,10 +296,62 @@ Between each topic we will have a 15 minute break for fresh air and a strech. We
   <div class="row">
     <div class="col-md-4">
       <h4 id="git-windows">Windows</h4>
-      <p>
-        Git should be installed on your computer as part of your Bash
-        install (described above).
-      </p>
+      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+      <ol>
+        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
+        <li>Run the installer and follow the steps below:
+          <ol>
+            {% comment %} Git 2.18.0 Setup {% endcomment %}
+            <li>
+                Click on "Next" four times (two times if you've previously
+                installed Git).  You don't need to change anything
+                in the Information, location, components, and start menu screens.
+            </li>
+            <li>
+                <strong>
+                Select “Use the nano editor by default” and click on “Next”.
+                </strong>
+            </li>
+            {% comment %} Adjusting your PATH environment {% endcomment %}
+            <li>
+                Keep "Use Git from the command line and..." selected and click on "Next".
+                If you forgot to do this programs that you need for the workshop will not work properly.
+                If this happens rerun the installer and select the appropriate option.
+            </li>
+            {% comment %} Choosing the SSH executable {% endcomment %}
+            <li>Click on "Next".</li>
+            {% comment %} Configuring the line ending conversions {% endcomment %}
+            <li>
+                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+            </li>
+            {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
+            <li>
+              <strong>
+                Select "Use Windows' default console window" and click on "Next".
+              </strong>
+            </li>
+            {% comment %} Configuring experimental performance tweaks {% endcomment %}
+            <li>Click on "Install".</li>
+            {% comment %} Installing {% endcomment %}
+            {% comment %} Completing the Git Setup Wizard {% endcomment %}
+            <li>Click on "Finish".</li>
+          </ol>
+        </li>
+        <li>
+          If your "HOME" environment variable is not set (or you don't know what this is):
+          <ol>
+            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
+            <li>
+              Type the following line into the command prompt window exactly as shown:
+              <p><code>setx HOME "%USERPROFILE%"</code></p>
+            </li>
+            <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
+            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
+          </ol>
+        </li>
+      </ol>
+      <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+    </div>
     </div>
     <div class="col-md-4">
       <h4 id="git-macosx">macOS</h4>

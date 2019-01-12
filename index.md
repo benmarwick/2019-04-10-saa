@@ -188,7 +188,10 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
       <li>Making publication-quality plots</li>
       <li>Captions, cross-references and citations</li>
     </ul>
+  </div>  
   </div>
+
+  <div class="row">
   <div class="col-md-6">
     <h3 id="syllabus-git">Git & GitHub</h3>
     <ul>
@@ -205,12 +208,14 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
   <div class="col-md-6">
     <h3 id="syllabus-r">Data repositories & OSF</h3>
     <ul>
-      <li>Writing text and code together</li>
-      <li>Reading in data from Excel sheets</li>
-      <li>Making publication-quality plots</li>
-      <li>Captions, cross-references and citations</li>
+      <li>DOIs and metadata</li>
+      <li>Connecting GitHub to OSF</li>
+      <li>Snapshotting a version</li>
+      <li>Citing data repositories</li>
     </ul>
   </div>
+
+    </div>
 
 
 <hr />

@@ -352,6 +352,7 @@ Between each topic we will have a 15 minute break for fresh air and a stretch. W
       </ol>
       <p>This will provide you with both Git and Bash in the Git Bash program.</p>
     </div>
+        </div>
     </div>
     <div class="col-md-4">
       <h4 id="git-macosx">macOS</h4>

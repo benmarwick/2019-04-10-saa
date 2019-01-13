@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "Transparent and Open Archaeological Science Using R<br><h3>A Short Workshop at the Society of American Archaeology Annual Meeting, Albuquerque Convention Center</h3>"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Transparent and Open Archaeological Research Using R<br><h3>A Short Workshop at the Society of American Archaeology Annual Meeting, Albuquerque Convention Center</h3>"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "401 2nd St NW, Albuquerque, NM 87102"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)

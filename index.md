@@ -458,3 +458,6 @@ This code of conduct is an adaptation of the one used by the Software Carpentry 
 Data Analysis, & Geoarchaeology in the Cultural Resources Deptartment of AECOM. He is an advanced R user, with a focus on spatial analysis and simulation. He documents many of his explorations using R on his <a href="https://matthewdharris.com/">blog</a>. Matt is a member of the SAA Open Science Interest Group, and has previously instructed R to archaeologists via the SAA Online workshops and in person.
 <p>
 </p>
+<p>
+<a href="https://www.nevrome.de/">Clemens Schmid</a> is an early career archaeologist from Germany. He currently works in a research project about the archaeological site of Olympia (Greece) at the Römisch-Germanisches Zentralmuseum (RGZM) in Mainz. Clemens is an avid R developer and a founding member of the <a href="https://isaakiel.github.io/">ISAAKiel</a> working group. He developed several <a href="https://github.com/nevrome">R Packages, RStudio Addins and R Shiny Webapps</a> and conducted multiple workshops about R for archaeologists.
+</p>

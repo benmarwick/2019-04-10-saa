@@ -460,4 +460,8 @@ Data Analysis, & Geoarchaeology in the Cultural Resources Deptartment of AECOM. 
 </p>
 <p>
 <a href="https://www.nevrome.de/">Clemens Schmid</a> is an early career archaeologist from Germany. He currently works in a research project about the archaeological site of Olympia (Greece) at the Römisch-Germanisches Zentralmuseum (RGZM) in Mainz. Clemens is an avid R developer and a founding member of the <a href="https://isaakiel.github.io/">ISAAKiel</a> working group. He developed several <a href="https://github.com/nevrome">R Packages, RStudio Addins and R Shiny Webapps</a> and conducted multiple workshops about R for archaeologists.
+<p>
+</p>
+<p>
+<a href="https://anthropology.washington.edu/people/li-ying-wang">Liying Wang</a> is a PhD student of archaeology at the University of Washington. Her PhD research focuses on European culture contact and its impact on indigenous societies in northeastern Taiwan. She recently started using R to analyze archaeological data. She will be a helper in this workshop.
 </p>

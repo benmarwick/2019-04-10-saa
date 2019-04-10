@@ -142,7 +142,7 @@ To participate in the workshop, you need to <a href="https://www.saa.org/annual-
   <tr>
     <td class="tg-yw4l">1:00</td>
     <td class="tg-yw4l">1:45</td>
-    <td class="tg-yw4l">Introduction to <a href="https://www.r-project.org/">R</a> and a <a href="https://www.rstudio.com/">RStudio</a></td>
+    <td class="tg-yw4l">Introduction to <a href="https://www.r-project.org/">R</a> and <a href="https://www.rstudio.com/">RStudio</a></td>
   </tr>
   <tr>
     <td class="tg-yw4l">2:00</td>
